@@ -9824,6 +9824,22 @@ sup.dollar {
     top: 50%;
     transform: translateY(-50%);
 }
-.partners-content a {
-    display: block;
+
+.partners__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner__container {
+    padding: 2em;
+    width: 33%;
+}
+
+.partner__image {
+    width: 100%;
+}
+
+.support__heading {
+    font-style: italic;
 }
